@@ -1,0 +1,99 @@
+/* fonts variables colors */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-base:"Poppins", sans-serif;
+
+    --c-primary:#975af9;
+    --c-secondary: #46a7f8;
+    --c-background: #e6e6e6;
+    --c-dark: #2d2d2d;
+    --c-black: #000000;
+
+}
+
+*{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* botton set up */
+.btn{
+    font-weight: 600 !important;
+}
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+
+/* nav bar setup */
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-dark{
+    background-color: var(--c-black);
+}
+
+/* hero setup */
+#hero{
+    background: url(../img/home/Hero-img-2.jpg);
+    background-position: top;
+    margin-top: -60px;
+}
+.hero-text{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+/* about us setup */
+
+.brand-title{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: var(--font-base);
+}
+.brand-p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font-base);
+}
+
+
+
+/* icon box setup */
+
+.iconbox{
+    background: var(--c-dark) !important;
+    color: var(--c-primary) !important;
+    width: 60px !important;
+    height: 65px !important;
+    align-items: center !important;
+    font-size: 35px !important;
+}
